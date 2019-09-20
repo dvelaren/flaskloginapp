@@ -1,0 +1,19 @@
+.wrap {
+    display: flex;
+    background: rgb(0, 162, 255);
+    width: 100%;
+    justify-content: space-between;
+}
+
+.wrap div {
+    margin: 10px;
+}
+
+.wrap p {
+    margin: 0px;
+    color: white;
+}
+
+.wrap div:nth-child(2) {
+    flex:1;
+}
